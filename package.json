@@ -1,6 +1,6 @@
 {
   "name": "@stefan_zetterberg/pagination",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "A pagination React-component to use for paginating big arrays of items",
   "license": "MIT",
   "repository": "StefanZetterberg/Pagination",

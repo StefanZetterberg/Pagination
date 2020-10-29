@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { render } from "@testing-library/react";
 
 const propTypes = {
   items: PropTypes.array.isRequired,
@@ -22,7 +21,6 @@ class Pagination extends Component {
     };
     this.setPage = this.setPage.bind(this);
   }
-  //  const [pager, setPager] = useState({})
 
   componentDidMount() {
     if (this.props.items && this.props.items.length) {
@@ -98,7 +96,7 @@ class Pagination extends Component {
           <div>
             <button
               onClick={() => this.setPage(1)}
-              disabled={this.state.pager.currentPage === 10}
+              disabled={this.state.pager.currentPage === 1}
               data-testid="toFirstPageBtn"
               id="toFirstPageBtn"
             >

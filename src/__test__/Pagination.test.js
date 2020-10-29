@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import { shallow, configure } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
-import Pagination from "./Pagination";
+import Pagination from "../Pagination";
 
 configure({ adapter: new Adapter() });
 
